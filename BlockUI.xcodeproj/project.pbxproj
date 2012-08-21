@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		363486AC15D36A1900AADD51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363486AB15D36A1900AADD51 /* UIKit.framework */; };
+		363486AE15D36A1900AADD51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363486AD15D36A1900AADD51 /* Foundation.framework */; };
+		363486B015D36A1900AADD51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363486AF15D36A1900AADD51 /* CoreGraphics.framework */; };
+		363486B615D36A1900AADD51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 363486B415D36A1900AADD51 /* InfoPlist.strings */; };
+		363486B815D36A1900AADD51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 363486B715D36A1900AADD51 /* main.m */; };
+		363486BC15D36A1900AADD51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 363486BB15D36A1900AADD51 /* AppDelegate.m */; };
+		363486BF15D36A1900AADD51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 363486BE15D36A1900AADD51 /* ViewController.m */; };
+		363486C215D36A1900AADD51 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 363486C015D36A1900AADD51 /* ViewController.xib */; };
+		363486CB15D36AAF00AADD51 /* BlockBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 363486CA15D36AAF00AADD51 /* BlockBox.m */; };
+		363486CE15D36ABE00AADD51 /* BlockGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 363486CD15D36ABE00AADD51 /* BlockGroup.m */; };
+		363486D115D36ACA00AADD51 /* BlockItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 363486D015D36ACA00AADD51 /* BlockItem.m */; };
+		363486D715D3833C00AADD51 /* button-play.png in Resources */ = {isa = PBXBuildFile; fileRef = 363486D515D3833C00AADD51 /* button-play.png */; };
+		363486D815D3833C00AADD51 /* button-play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 363486D615D3833C00AADD51 /* button-play@2x.png */; };
+		363486DB15D3966400AADD51 /* Matrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 363486DA15D3966400AADD51 /* Matrix.m */; };
+		363A17E015D792010097C2EC /* BlockUI.c in Sources */ = {isa = PBXBuildFile; fileRef = 363A17DF15D792010097C2EC /* BlockUI.c */; };
+		363BE3D415D7D45600DEDB1F /* MatrixRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 363BE3D315D7D45600DEDB1F /* MatrixRule.m */; };
+		3648B10A15DA25B6003C890E /* BlockContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3648B10915DA25B6003C890E /* BlockContainer.m */; };
+		3648B10E15DA3FC5003C890E /* BlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3648B10D15DA3FC4003C890E /* BlockButton.m */; };
+		364AB22E15DB51FC00BEB7A5 /* BlockBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 364AB22D15DB51FC00BEB7A5 /* BlockBuffer.m */; };
+		365DAE1015E3374C00145A5B /* CommandProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 365DAE0F15E3374C00145A5B /* CommandProcessor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		363486A715D36A1900AADD51 /* BlockUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		363486AB15D36A1900AADD51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		363486AD15D36A1900AADD51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		363486AF15D36A1900AADD51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		363486B315D36A1900AADD51 /* BlockUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockUI-Info.plist"; sourceTree = "<group>"; };
+		363486B515D36A1900AADD51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		363486B715D36A1900AADD51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		363486B915D36A1900AADD51 /* BlockUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockUI-Prefix.pch"; sourceTree = "<group>"; };
+		363486BA15D36A1900AADD51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		363486BB15D36A1900AADD51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		363486BD15D36A1900AADD51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		363486BE15D36A1900AADD51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		363486C115D36A1900AADD51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		363486C915D36AAF00AADD51 /* BlockBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockBox.h; sourceTree = "<group>"; };
+		363486CA15D36AAF00AADD51 /* BlockBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockBox.m; sourceTree = "<group>"; };
+		363486CC15D36ABE00AADD51 /* BlockGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockGroup.h; sourceTree = "<group>"; };
+		363486CD15D36ABE00AADD51 /* BlockGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockGroup.m; sourceTree = "<group>"; };
+		363486CF15D36ACA00AADD51 /* BlockItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockItem.h; sourceTree = "<group>"; };
+		363486D015D36ACA00AADD51 /* BlockItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockItem.m; sourceTree = "<group>"; };
+		363486D515D3833C00AADD51 /* button-play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-play.png"; sourceTree = "<group>"; };
+		363486D615D3833C00AADD51 /* button-play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-play@2x.png"; sourceTree = "<group>"; };
+		363486D915D3966400AADD51 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		363486DA15D3966400AADD51 /* Matrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix.m; sourceTree = "<group>"; };
+		363A17D315D78A3E0097C2EC /* BlockUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockUI.h; sourceTree = "<group>"; };
+		363A17DF15D792010097C2EC /* BlockUI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BlockUI.c; sourceTree = "<group>"; };
+		363BE3D215D7D45600DEDB1F /* MatrixRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixRule.h; sourceTree = "<group>"; };
+		363BE3D315D7D45600DEDB1F /* MatrixRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatrixRule.m; sourceTree = "<group>"; };
+		3648B10815DA25B6003C890E /* BlockContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockContainer.h; sourceTree = "<group>"; };
+		3648B10915DA25B6003C890E /* BlockContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockContainer.m; sourceTree = "<group>"; };
+		3648B10C15DA3FC4003C890E /* BlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockButton.h; sourceTree = "<group>"; };
+		3648B10D15DA3FC4003C890E /* BlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockButton.m; sourceTree = "<group>"; };
+		364AB22C15DB51FC00BEB7A5 /* BlockBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockBuffer.h; sourceTree = "<group>"; };
+		364AB22D15DB51FC00BEB7A5 /* BlockBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockBuffer.m; sourceTree = "<group>"; };
+		365DAE0E15E3374C00145A5B /* CommandProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandProcessor.h; sourceTree = "<group>"; };
+		365DAE0F15E3374C00145A5B /* CommandProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandProcessor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		363486A415D36A1900AADD51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363486AC15D36A1900AADD51 /* UIKit.framework in Frameworks */,
+				363486AE15D36A1900AADD51 /* Foundation.framework in Frameworks */,
+				363486B015D36A1900AADD51 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3634869C15D36A1900AADD51 = {
+			isa = PBXGroup;
+			children = (
+				363486B115D36A1900AADD51 /* BlockUI */,
+				363486AA15D36A1900AADD51 /* Frameworks */,
+				363486A815D36A1900AADD51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		363486A815D36A1900AADD51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				363486A715D36A1900AADD51 /* BlockUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		363486AA15D36A1900AADD51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				363486AB15D36A1900AADD51 /* UIKit.framework */,
+				363486AD15D36A1900AADD51 /* Foundation.framework */,
+				363486AF15D36A1900AADD51 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		363486B115D36A1900AADD51 /* BlockUI */ = {
+			isa = PBXGroup;
+			children = (
+				363486C815D36A2D00AADD51 /* Block */,
+				363486BA15D36A1900AADD51 /* AppDelegate.h */,
+				363486BB15D36A1900AADD51 /* AppDelegate.m */,
+				363486BD15D36A1900AADD51 /* ViewController.h */,
+				363486BE15D36A1900AADD51 /* ViewController.m */,
+				363486C015D36A1900AADD51 /* ViewController.xib */,
+				363486B215D36A1900AADD51 /* Supporting Files */,
+				365DAE0E15E3374C00145A5B /* CommandProcessor.h */,
+				365DAE0F15E3374C00145A5B /* CommandProcessor.m */,
+			);
+			path = BlockUI;
+			sourceTree = "<group>";
+		};
+		363486B215D36A1900AADD51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				363486B315D36A1900AADD51 /* BlockUI-Info.plist */,
+				363486B415D36A1900AADD51 /* InfoPlist.strings */,
+				363486B715D36A1900AADD51 /* main.m */,
+				363486B915D36A1900AADD51 /* BlockUI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		363486C815D36A2D00AADD51 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				363486D515D3833C00AADD51 /* button-play.png */,
+				363486D615D3833C00AADD51 /* button-play@2x.png */,
+				363486C915D36AAF00AADD51 /* BlockBox.h */,
+				363486CA15D36AAF00AADD51 /* BlockBox.m */,
+				363486CC15D36ABE00AADD51 /* BlockGroup.h */,
+				363486CD15D36ABE00AADD51 /* BlockGroup.m */,
+				363486CF15D36ACA00AADD51 /* BlockItem.h */,
+				363486D015D36ACA00AADD51 /* BlockItem.m */,
+				363486D915D3966400AADD51 /* Matrix.h */,
+				363486DA15D3966400AADD51 /* Matrix.m */,
+				363A17D315D78A3E0097C2EC /* BlockUI.h */,
+				363A17DF15D792010097C2EC /* BlockUI.c */,
+				363BE3D215D7D45600DEDB1F /* MatrixRule.h */,
+				363BE3D315D7D45600DEDB1F /* MatrixRule.m */,
+				3648B10815DA25B6003C890E /* BlockContainer.h */,
+				3648B10915DA25B6003C890E /* BlockContainer.m */,
+				3648B10C15DA3FC4003C890E /* BlockButton.h */,
+				3648B10D15DA3FC4003C890E /* BlockButton.m */,
+				364AB22C15DB51FC00BEB7A5 /* BlockBuffer.h */,
+				364AB22D15DB51FC00BEB7A5 /* BlockBuffer.m */,
+			);
+			name = Block;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		363486A615D36A1900AADD51 /* BlockUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363486C515D36A1900AADD51 /* Build configuration list for PBXNativeTarget "BlockUI" */;
+			buildPhases = (
+				363486A315D36A1900AADD51 /* Sources */,
+				363486A415D36A1900AADD51 /* Frameworks */,
+				363486A515D36A1900AADD51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockUI;
+			productName = BlockUI;
+			productReference = 363486A715D36A1900AADD51 /* BlockUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3634869E15D36A1900AADD51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Cai8;
+			};
+			buildConfigurationList = 363486A115D36A1900AADD51 /* Build configuration list for PBXProject "BlockUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3634869C15D36A1900AADD51;
+			productRefGroup = 363486A815D36A1900AADD51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				363486A615D36A1900AADD51 /* BlockUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		363486A515D36A1900AADD51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363486B615D36A1900AADD51 /* InfoPlist.strings in Resources */,
+				363486C215D36A1900AADD51 /* ViewController.xib in Resources */,
+				363486D715D3833C00AADD51 /* button-play.png in Resources */,
+				363486D815D3833C00AADD51 /* button-play@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		363486A315D36A1900AADD51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363486B815D36A1900AADD51 /* main.m in Sources */,
+				363486BC15D36A1900AADD51 /* AppDelegate.m in Sources */,
+				363486BF15D36A1900AADD51 /* ViewController.m in Sources */,
+				363486CB15D36AAF00AADD51 /* BlockBox.m in Sources */,
+				363486CE15D36ABE00AADD51 /* BlockGroup.m in Sources */,
+				363486D115D36ACA00AADD51 /* BlockItem.m in Sources */,
+				363486DB15D3966400AADD51 /* Matrix.m in Sources */,
+				363A17E015D792010097C2EC /* BlockUI.c in Sources */,
+				363BE3D415D7D45600DEDB1F /* MatrixRule.m in Sources */,
+				3648B10A15DA25B6003C890E /* BlockContainer.m in Sources */,
+				3648B10E15DA3FC5003C890E /* BlockButton.m in Sources */,
+				364AB22E15DB51FC00BEB7A5 /* BlockBuffer.m in Sources */,
+				365DAE1015E3374C00145A5B /* CommandProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		363486B415D36A1900AADD51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				363486B515D36A1900AADD51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		363486C015D36A1900AADD51 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				363486C115D36A1900AADD51 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		363486C315D36A1900AADD51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		363486C415D36A1900AADD51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		363486C615D36A1900AADD51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockUI/BlockUI-Prefix.pch";
+				INFOPLIST_FILE = "BlockUI/BlockUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		363486C715D36A1900AADD51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockUI/BlockUI-Prefix.pch";
+				INFOPLIST_FILE = "BlockUI/BlockUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		363486A115D36A1900AADD51 /* Build configuration list for PBXProject "BlockUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363486C315D36A1900AADD51 /* Debug */,
+				363486C415D36A1900AADD51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363486C515D36A1900AADD51 /* Build configuration list for PBXNativeTarget "BlockUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363486C615D36A1900AADD51 /* Debug */,
+				363486C715D36A1900AADD51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3634869E15D36A1900AADD51 /* Project object */;
+}
