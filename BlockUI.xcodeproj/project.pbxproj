@@ -27,6 +27,9 @@
 		3648B10E15DA3FC5003C890E /* BlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3648B10D15DA3FC4003C890E /* BlockButton.m */; };
 		364AB22E15DB51FC00BEB7A5 /* BlockBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 364AB22D15DB51FC00BEB7A5 /* BlockBuffer.m */; };
 		365DAE1015E3374C00145A5B /* CommandProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 365DAE0F15E3374C00145A5B /* CommandProcessor.m */; };
+		365DAE7B15E37A6600145A5B /* BlockNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 365DAE7A15E37A6600145A5B /* BlockNotification.m */; };
+		365DAE7F15E37EF600145A5B /* BlockAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 365DAE7E15E37EF600145A5B /* BlockAnimations.m */; };
+		365DAE8115E3826300145A5B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365DAE8015E3826300145A5B /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,11 @@
 		364AB22D15DB51FC00BEB7A5 /* BlockBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockBuffer.m; sourceTree = "<group>"; };
 		365DAE0E15E3374C00145A5B /* CommandProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandProcessor.h; sourceTree = "<group>"; };
 		365DAE0F15E3374C00145A5B /* CommandProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandProcessor.m; sourceTree = "<group>"; };
+		365DAE7915E37A6600145A5B /* BlockNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockNotification.h; sourceTree = "<group>"; };
+		365DAE7A15E37A6600145A5B /* BlockNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockNotification.m; sourceTree = "<group>"; };
+		365DAE7D15E37EF600145A5B /* BlockAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockAnimations.h; sourceTree = "<group>"; };
+		365DAE7E15E37EF600145A5B /* BlockAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockAnimations.m; sourceTree = "<group>"; };
+		365DAE8015E3826300145A5B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365DAE8115E3826300145A5B /* QuartzCore.framework in Frameworks */,
 				363486AC15D36A1900AADD51 /* UIKit.framework in Frameworks */,
 				363486AE15D36A1900AADD51 /* Foundation.framework in Frameworks */,
 				363486B015D36A1900AADD51 /* CoreGraphics.framework in Frameworks */,
@@ -101,6 +110,7 @@
 		363486AA15D36A1900AADD51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				365DAE8015E3826300145A5B /* QuartzCore.framework */,
 				363486AB15D36A1900AADD51 /* UIKit.framework */,
 				363486AD15D36A1900AADD51 /* Foundation.framework */,
 				363486AF15D36A1900AADD51 /* CoreGraphics.framework */,
@@ -158,6 +168,10 @@
 				3648B10D15DA3FC4003C890E /* BlockButton.m */,
 				364AB22C15DB51FC00BEB7A5 /* BlockBuffer.h */,
 				364AB22D15DB51FC00BEB7A5 /* BlockBuffer.m */,
+				365DAE7915E37A6600145A5B /* BlockNotification.h */,
+				365DAE7A15E37A6600145A5B /* BlockNotification.m */,
+				365DAE7D15E37EF600145A5B /* BlockAnimations.h */,
+				365DAE7E15E37EF600145A5B /* BlockAnimations.m */,
 			);
 			name = Block;
 			sourceTree = "<group>";
@@ -240,6 +254,8 @@
 				3648B10E15DA3FC5003C890E /* BlockButton.m in Sources */,
 				364AB22E15DB51FC00BEB7A5 /* BlockBuffer.m in Sources */,
 				365DAE1015E3374C00145A5B /* CommandProcessor.m in Sources */,
+				365DAE7B15E37A6600145A5B /* BlockNotification.m in Sources */,
+				365DAE7F15E37EF600145A5B /* BlockAnimations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

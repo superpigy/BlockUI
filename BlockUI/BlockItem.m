@@ -27,7 +27,7 @@
         imageUrl = url;
         self.type = bType;
         self.itemTitle = title;
-        self.itemView = [UIButton buttonWithType:UIButtonTypeCustom];
+        self.itemView = [[BlockButton alloc] init];
         [self.itemView addTarget:target action:selector forControlEvents:UIControlEventTouchUpInside];
     }
     return self;
@@ -35,6 +35,12 @@
 
 - (void)loadAsync
 {
+    if(self.delegate)
+    {
+        [self.delegate loadAsyncCallback];
+        return;
+    }
+    
     //Item Rect has been initialized..
     switch (self.type) {
         case Text:

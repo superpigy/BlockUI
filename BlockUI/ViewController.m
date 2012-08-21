@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "BlockContainer.h"
+#import "BlockNotification.h"
 
 @interface ViewController ()
 
@@ -88,7 +89,7 @@
         case 0:
         {
             [box configureBoxWithTitle:@"menu"];
-            BlockItem *menuItem1 = [[BlockItem alloc] initWithItemType:Text Title:@"onlive radio station" thumbnailUrl:nil target:self action:nil];
+            BlockItem *menuItem1 = [[BlockItem alloc] initWithItemType:Text Title:@"onlive radio station" thumbnailUrl:nil target:self action:@selector(test:)];
             BlockItem *menuItem2 = [[BlockItem alloc] initWithItemType:Text Title:@"people" thumbnailUrl:nil target:nil action:nil];
             BlockItem *menuItem3 = [[BlockItem alloc] initWithItemType:Text Title:@"tracking station" thumbnailUrl:nil target:nil action:nil];
             [box addBlockItem:menuItem1];
@@ -118,6 +119,12 @@
     }
 }
 
+- (void)test:(id)sender
+{
+    BlockNotification *notification = [BlockNotification notification];
+    [notification showWithTitle:@"test" Message:@"test message" target:nil selector:nil inView:self.view];
+}
+
 #pragma - View loading delegate
 
 - (void)viewDidUnload
@@ -128,7 +135,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return YES;
+    return interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight;
 }
 
 @end

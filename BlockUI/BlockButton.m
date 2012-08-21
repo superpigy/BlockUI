@@ -10,7 +10,14 @@
 
 @implementation BlockButton
 
+- (id)init
+{
+    if(self =[super init])
+    {
 
+    }
+    return self;
+}
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -20,6 +27,8 @@
     }
     return self;
 }
+
+
 
 - (void)onTouch:(ButtonActionBlock)action
 {

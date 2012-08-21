@@ -16,6 +16,13 @@ typedef enum
     Media
 }BlockItemType;
 
+@class BlockItem;
+@protocol BlockItemDelegate <NSObject>
+
+- (void)loadAsyncCallback;
+
+@end
+
 @interface BlockItem : NSObject
 {
     NSString *imageUrl;
@@ -27,6 +34,7 @@ typedef enum
 @property (nonatomic,assign) BlockItemType type;
 @property (nonatomic,assign) NSInteger groupIndex;
 @property (nonatomic,assign) BOOL autosizing;
+@property (nonatomic,assign) id<BlockItemDelegate> delegate;
 
 + (id)blockItemWithType:(BlockItemType)bType Title:(NSString *)title thumbnailUrl:(NSString *)url itemCoordinate:(ButtonCoordinate)coordinate onTouch:(ButtonActionBlock)actionBlock;
 

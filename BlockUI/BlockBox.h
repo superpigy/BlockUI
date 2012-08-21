@@ -18,12 +18,15 @@
 
 @property (nonatomic,assign) CGPoint origin;
 @property (nonatomic,strong) NSString *title;
+@property (nonatomic,assign) NSInteger index;
 
 - (id)initBoxWithInitialPoint:(CGPoint)point Title:(NSString *)t;
 
 - (id)itemAtIndex:(NSInteger)index;
 
 - (void)addBlockItem:(BlockItem *)item;
+
+- (void)collection:(NSArray *)itemCollection;
 
 - (void)prepareItemGrouping;
 

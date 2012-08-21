@@ -36,6 +36,11 @@
     [items addObject:item];
 }
 
+- (void)collection:(NSArray *)itemCollection
+{
+    items = [NSMutableArray arrayWithArray:itemCollection];
+}
+
 - (void)addGroup:(BlockGroup *)group
 {
     if(!groups)
@@ -65,6 +70,7 @@
             
             //Set Item Tag
             item.groupIndex = i;
+            [item.itemView setCoordinate:ButtonCoordinateMake(self.index, [items indexOfObject:item])];
             switch (item.type) {
                 case Text:
                     item.m_frame = MatrixRectMake(0, 0, 3, 1);
